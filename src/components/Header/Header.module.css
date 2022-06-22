@@ -1,0 +1,26 @@
+.container {
+  grid-area: h;
+  background-color: rgb(104, 44, 119);
+  display: flex;
+  height: 100px;
+  width: 100%;
+  
+}
+.logo { 
+  align-self: center;
+  width: 10%;
+}
+
+.title {
+  width: 90%;
+  
+}
+
+
+.logo img {
+  width: 90px;
+  height: 90px;  
+}
+.title h1{
+  color: white;
+}

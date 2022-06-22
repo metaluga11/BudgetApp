@@ -1,0 +1,13 @@
+.App {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 100px 1fr 200px;
+  grid-template-columns: 200px 1fr;
+  grid-template-areas:
+    "h h"
+    "s c"
+    "f f";
+
+  text-align: center;  
+}
+

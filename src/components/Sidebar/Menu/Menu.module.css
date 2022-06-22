@@ -1,0 +1,27 @@
+.items {
+    position: relative;
+}
+.items:hover {
+    background-color: bisque;
+    border-radius: 5px;
+    box-shadow: 3px 3px gray;
+}
+
+.items:hover .content {
+    display: block;
+}
+
+.content {    
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+
+.item {
+    margin-top: 5px;
+    background-color: aqua;
+    border-radius: 5px;
+    box-shadow: 3px 3px gray;
+}
